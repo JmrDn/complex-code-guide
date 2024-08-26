@@ -1,0 +1,14 @@
+//Typewriter
+import {Typewriter} from 'react-simple-typewriter'
+
+//Implementation
+ <Typewriter
+            words={['Web Developer', 'Android Developer']}
+            loop={999}
+            cursor
+            cursorStyle='|'
+            typeSpeed={150}
+            deleteSpeed={50}
+            delaySpeed={2000}
+          
+          />
